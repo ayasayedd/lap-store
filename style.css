@@ -1,0 +1,84 @@
+.nav a {
+    margin: 0px 40px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container img {
+    width: 250px;
+    height: 150px;
+}
+.flex-container button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px;
+    border-style:solid;
+    border-color: black;
+}
+.flex-container section {
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px;
+    border-style:solid;
+    border-color: rgb(0, 36, 44);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 200px;
+    height: 300px;  
+
+}
+footer {
+    margin: 5px;
+    padding: 30px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 1000px;
+    margin-left: 245px;
+}   
+
+footer button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px;
+    border-style:solid;
+    border-color: black;
+}
+#first :hover {
+    background-color: rgb(225, 227, 239);
+    transition: all 4s;
+    transform:scale(1.1);
+    transition: all 2s;
+  }
+  #second :hover {
+    background-color: rgb(225, 227, 239);
+    transition: all 4s;
+    transform:scale(1.1);
+    transition: all 2s;
+  }
+  #third :hover {
+    background-color: rgb(225, 227, 239);
+    transition: all 4s;
+    transform:scale(1.1);
+    transition: all 2s;
+  }
+  #fourth :hover {
+    background-color: rgb(225, 227, 239);
+    transition: all 4s;
+    transform:scale(1.1);
+    transition: all 2s;
+  }
+footer button:hover {
+    background-color: rgb(122, 123, 129););
+    transition:  all 0s;
+}
+
